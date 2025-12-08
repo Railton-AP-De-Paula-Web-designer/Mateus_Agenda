@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:antiquewhite;
+    background-color:#000
 }
 
 .cabecalho nav {
@@ -60,3 +60,62 @@ body {
     margin-right: 5px;
     transform: scaleX(3px)
 }
+
+.principal h2 {
+    font-family: 'playfair display', serif;
+    font-weight: 700;
+    font-size: 4.5em;
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.5), 0 0 10px rgba(255, 215, 0, 0.1);
+    color: #333;
+
+}
+
+.agenda {
+    color: #ffffff;
+}
+
+
+
+
+.agenda-nome {
+    font-family: 'playfair display', serif;
+    font-weight: 700;
+    font-size: 4.5em;
+    line-height: 0.95;
+    text-transform: uppercase;
+    margin: 0;
+    background: linear-gradient(180deg, #fcf6ba 0%, #b38728 50%, #fcf6ba 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-shadow: 0 0 5px rgba(255, 215, 0, 0.2),
+   0 0 1px #9c8458,
+   2px 2px 3px rgba(0, 0, 0, 0.4);
+    
+}
+
+.principal {
+    height: 80vh;
+    overflow: hidden;
+    padding: 120px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.video-fundo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 70%;
+    object-fit: cover;
+    z-index: -1;
+ object-position: center center;
+}
+
+
+
+
