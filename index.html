@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,22 +14,78 @@
         <nav>
             <ul>
                 <li><a href="https://www.google.com/" target="_blank"><img class="logo-nav" src="./image/google.png" alt="logo google">Nucleus Web</a></li>
-
                 <li><a href="https://www.youtube.com/" target="_blank"><img class="logo-nav" src="./image/youtube.png" alt="logo youtube">Youtube</a></li>
             </ul>
         </nav>
     </header>
+
 <main>
     <section class="principal">
         <video class="video-fundo" autoplay muted loop playsinline>
             <source src="./image/video-2-missao.mp4" type="video/mp4">
             Seu navegador não suporta o elemento de vídeo.
         </video>
-        
-        </section>
+    </section>
 
     <h1 class="agenda">Preletor</h1>
     <h2 class="agenda-nome">Matheus Souza</h2>
+
+    <section class="navegador">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Biblia</a></li>
+                <li><a href="">Filmes</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="constatos-section">
+        <h1 class="contatos-titulo">Contatos</h1>
+
+        <div class="contatos-container">
+            <!--WhatsApp-->
+            <div class="contato-item" id="c-whatsapp">
+                <div class="icon-box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                </div>
+                <p>WhatsApp</p>
+            </div>
+
+            <!--Instagram-->
+            <div class="contato-item" id="c-instagram">
+                <div class="icon-box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
+                </div>
+                <p>Instagram</p>
+            </div>
+
+            <!--Facebook-->
+            <div class="contato-item" id="c-facebook">
+                <div class="icon-box">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Facebook">
+                </div>
+                <p>Facebook</p>
+            </div>
+
+            <!--linhas Futuristas-->
+            <svg class="lines-svg" width="100%" height="200" viewBox="0 0 1000 200">
+                <!-- Linha 1 -->
+                <polyline class="linha-futurista" points="150,100 450,50"/>
+                <!-- Linha 2 -->
+                <polyline class="linha-futurista" points="450,50 750,100" />
+                <!-- Pulso animado -->
+                <circle class="pulso" r="6">
+                    <animateMotion
+                        dur="4s"
+                        repeatCount="indefinite"
+                        path="M150,100 L450,50 L750,100" />
+                </circle>
+            </svg>
+
+        </div>
+    </section>
 
     <footer></footer>
 </main>
