@@ -96,7 +96,7 @@ body {
 
 .principal {
     height: 80vh;
-    overflow: hidden;
+ overflow: visible;
     padding: 120px 20px 20px;
     display: flex;
     justify-content: center;
@@ -214,9 +214,6 @@ body {
     z-index: -1;
  }
 
-
- 
-
  .linha-futurista {
     fill: none;
     stroke: #00eaff;
@@ -232,9 +229,31 @@ body {
     filter:drop-shadow(0 0 10px #00eaff);
  }
 
-
+.biblia-titulo h2 {
+   position: relative;
+    z-index: 9999; /* garante que aparece acima do vídeo */
+    color: #fff; /* pode ajustar se quiser */
  
+}
 
+.biblia-titulo {
+   position: relative;
+   z-index: 9999;
+   color: #fff;
+}
+.biblia {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(137, 43, 226, 0.221);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start
+}
 
+.logo-biblioteca {
+    width: 400px;
+}
 
 
