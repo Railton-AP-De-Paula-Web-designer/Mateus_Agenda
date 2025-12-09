@@ -184,7 +184,53 @@ body {
     font-family: arial, sans-serif;
 }
 
+/*ajuste individuais dos icones*/ 
+    #c-whatsapp {left: 100px; top: 60px;}
+    #c-instagram {left: 450px; top: 0;}
+    #c-facebook {left: 800px; top: 60px;}
 
+.icon-box {
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgba(0, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transfrom .3s ease, box-shadow .3s ease;
+}
+.icon-box img {
+    width: 45px;
+}
+.icon-box:hover {
+    transform: scale(1.12);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+}
+
+/*svg das linhas*/
+ .lines-svg {
+    position: relative;
+    z-index: -1;
+ }
+
+
+ 
+
+ .linha-futurista {
+    fill: none;
+    stroke: #00eaff;
+    stroke-width: 3;
+    opacity: 0.6;
+    filter: drop-shadow(0 0 6px #00eaff);
+ }
+
+ /*animação do pulso*/
+
+ .pulso {
+    fill: #00eaff;
+    filter:drop-shadow(0 0 10px #00eaff);
+ }
 
 
  
