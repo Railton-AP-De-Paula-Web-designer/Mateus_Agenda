@@ -106,7 +106,10 @@ body {
 }
 
 .logo-1 {
-    width: 350px;
+    width: 200px;
+    position: relative;
+    margin-right: 60%;
+    top: 30%;
 }
 
 .navegador {
